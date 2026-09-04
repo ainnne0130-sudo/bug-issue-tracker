@@ -1,0 +1,165 @@
+body {
+    background: #f4f7fb;
+    font-family: Arial, sans-serif;
+    color: #212529;
+}
+
+h1 {
+    color: #1f2937;
+}
+
+.dashboard-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: 0.2s;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-3px);
+}
+
+.dashboard-card i {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.dashboard-card h5 {
+    margin-bottom: 5px;
+    color: #6c757d;
+}
+
+.dashboard-card h2 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+}
+
+.card-body {
+    padding: 25px;
+}
+
+.form-label {
+    font-weight: 600;
+}
+
+.issue-card {
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 18px;
+    margin-bottom: 15px;
+    background: #fff;
+}
+
+.issue-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.issue-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.issue-description {
+    color: #6c757d;
+    margin-bottom: 15px;
+}
+
+.issue-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.priority-badge,
+.status-badge {
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.priority-low {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.priority-medium {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.priority-high {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.status-open {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.status-progress {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.status-closed {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.issue-date {
+    color: #6c757d;
+    font-size: 14px;
+}
+
+.issue-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.empty-icon {
+    font-size: 40px;
+    color: #adb5bd;
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .card-body {
+        padding: 18px;
+    }
+
+    .issue-header {
+        flex-direction: column;
+    }
+
+    .issue-title {
+        font-size: 18px;
+    }
+
+    .issue-actions {
+        width: 100%;
+    }
+
+    .issue-actions .btn {
+        flex: 1;
+    }
+}
