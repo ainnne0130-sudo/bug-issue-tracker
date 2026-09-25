@@ -1,6 +1,6 @@
 # Bug / Issue Tracker
 
-A simple and responsive web-based Bug / Issue Tracker that allows users to create, manage, filter, and track issues.
+A simple and responsive web-based Bug / Issue Tracker that allows users to create, manage, filter, search, and track issues.
 
 ## Features
 
@@ -38,10 +38,17 @@ A simple and responsive web-based Bug / Issue Tracker that allows users to creat
 - Medium
 - High
 
+## SEO Improvements
+
+- Added a meta description to the main HTML page.
+- The meta description describes the purpose and functionality of the Bug / Issue Tracker.
+- Re-tested the website after implementing the SEO improvement.
+- Verified that the application continues to work correctly after the change.
+
 ## Live Demo
 
-[Bug / Issue Tracker]https://ainnne0130-sudo.github.io/bug-issue-tracker/
+https://ainnne0130-sudo.github.io/bug-issue-tracker/
 
 ## GitHub Repository
 
-[GitHub Repository](https://github.com/ainnne0130-sudo/bug-issue-tracker)
+https://github.com/ainnne0130-sudo/bug-issue-tracker
